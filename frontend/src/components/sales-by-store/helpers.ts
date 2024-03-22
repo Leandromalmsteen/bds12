@@ -1,6 +1,5 @@
 import { ApexOptions } from 'apexcharts';
-import { Gender, SalesByGender } from '../../types';
-import { formatGender } from '../../utils/formatters';
+import { SalesByGender } from '../../types';
 
 export const buildPieChartConfig = (labels: string[] = [], name: string) => {
   return {
